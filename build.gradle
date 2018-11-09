@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'gradleJavaApplication'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+mainClassName = "com.sanket.gradlePractice.HelloWorld"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+test{
+}
